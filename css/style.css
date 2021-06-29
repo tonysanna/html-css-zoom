@@ -62,7 +62,7 @@ main {
 	min-width: 30%;
 	max-width: 80%;
 	color: white;
-	font-size: 20px;
+	font-size: 15px;
 	white-space: nowrap;
 	background-color: rgba(0, 0, 0, 0.5);
 	position: absolute;
@@ -108,53 +108,72 @@ main {
 	border: 5px solid yellow;
 }
 
-
-
-
-/* .debug main {
-    width: 100vw;
-	height: 95vh;
-    background-color: aqua;
-    justify-content: space-between;
-	align-items: center;
-
-}
-
-.debug .main-2 {
-    width: 85%;
-    height: 85%;
-    background-color: green;
-    align-content: space-between;
+footer {
+	width: 100vw;
+	height: 10vh;
 	justify-content: space-between;
-}
-
-.debug .people {
-	width: calc(100% / 5 - 5px);
-	height: calc(100% / 5 - 5px);
-	background-color: purple;
-	border: 1px solid black;
-	position: relative;
-}
-
-.debug .people > .overlay {
-	min-width: 30%;
-	max-width: 80%;
-	color: white;
-	font-size: 20px;
+	align-items: center;
+	font-size: 12px;
 	white-space: nowrap;
-	background-color: rgba(0, 0, 0, 0.5);
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	padding: 0 5px;
+	color: white;
+	background-color: #222326;
 }
 
-.debug .people img {
-	width: 100%;
+.footer-left,
+.footer-main,
+.footer-right {
 	height: 100%;
-	object-fit: cover;
-} */
+}
+
+#mic-settings {
+	padding-left: 20px;
+	padding-right: 10px;
+}
+.menu {
+	align-items: center;
+	justify-content: center;
+}
+
+.icon {
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0 10px;
+}
+
+.footer-right {
+	line-height: 9vh;
+	width: 9%;
+}
+
+.footer-right a {
+	text-decoration: none;
+	color: red;
+	background-color:grey;
+	width: 100%;
+	text-align: center;
+}
+
+.fa-share-alt {
+	color: #4bc800;
+}
+
+.fa-circle {
+	color: red;
+}
+
+.fas.fa-chevron-up.fa-xs {
+	font-size: 12px;
+}
+
+.end {
+	font-size: 20px;
+}
+
+.partecipants {
+	margin-left: 5px;
+	margin-right: 5px;	
+	
+}
 
 
